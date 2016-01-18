@@ -1,8 +1,3 @@
 {
-    "verbose": true,
-    "debug": false,
-    "modules": "common",
-    "blacklist": ["useStrict"],
-    "stage": 0,
-    "extensions": ["js"]
+    "verbose": true
 }

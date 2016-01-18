@@ -5,7 +5,5 @@ angular2now.options({
 const { SetModule } = angular2now;
 
 SetModule('core', [
-  'angular-meteor',
-  'ngCookies',
-  'ngSanitize'
+  'angular-meteor'
 ]);

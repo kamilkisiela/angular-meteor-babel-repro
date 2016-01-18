@@ -6,8 +6,7 @@ Package.describe({
 
 Package.onUse(function babelOnUse(api) {
   var packages = [
-    'es5-shim',
-    'pbastowski:angular-babel@1.0.7'
+    'pbastowski:angular-babel@1.0.9'
   ];
   api.use(packages);
   api.imply(packages);

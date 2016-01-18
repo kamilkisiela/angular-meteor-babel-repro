@@ -9,7 +9,6 @@ Package.describe({
 
 Package.onUse(function coreOnUse(api) {
   var packages = [
-    'mys:babel',
     'mys:angular',
     // externals
     'meteor-base',
@@ -19,7 +18,6 @@ Package.onUse(function coreOnUse(api) {
     'underscore',
     'check',
     'random',
-    'promise',
     'standard-minifiers',
     'mdg:validated-method',
 
@@ -27,17 +25,14 @@ Package.onUse(function coreOnUse(api) {
     'mongo',
     'aldeed:collection2@2.8.0',
     'aldeed:simple-schema@1.5.3',
-    'dburles:collection-helpers@1.0.3',
 
     // accounts
     'service-configuration',
-    'accounts-ui',
     'accounts-base',
     'accounts-password',
     'accounts-oauth',
     'accounts-google',
     'accounts-facebook',
-    'accounts-ui-unstyled',
     'splendido:accounts-meld@1.3.1'
   ];
 
